@@ -66,7 +66,7 @@ app.use('/' , require('./routes'));
 
 
 // Setting up the server at the given port
-app.listen(port, function(err){
+app.listen(PORT, function(err){
     if(err){
         console.log("Error in running the app.");
         return ;
