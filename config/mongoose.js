@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 
-mongoose.connect('mongodb://0.0.0.0:27017/employee_db');//url of database
+mongoose.connect('mongodb+srv://pri1106gm:<Gau@9898>@cluster0.83jpg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');//url of database
 
 const db=mongoose.connection;//set connection
 
