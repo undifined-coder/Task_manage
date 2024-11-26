@@ -1,5 +1,5 @@
 const express = require('express'); // requiring express, 
-const port = 5000; // assigning port
+const PORT = process.env.PORT || 3030;
 const app = express(); 
 
 // requiring express-ejs-layout
